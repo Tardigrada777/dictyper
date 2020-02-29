@@ -1,0 +1,19 @@
+{
+  "name": "dictyper",
+  "version": "0.1.0",
+  "description": "Small library for creating types definitions from .json dictionaries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ts",
+    "i18n"
+  ],
+  "author": "tardigrada777 <ntwrite@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.7.6",
+    "json-to-ast": "^2.1.0"
+  }
+}
