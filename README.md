@@ -1,7 +1,7 @@
 Small library for creating types map from .json dict files.
 ===========================================================
 
-[Changelog](CHANGELOG.md) |
+[Changelog](CHANGELOG.md)
 
 Currently is under hard development.
 
@@ -16,6 +16,11 @@ Currently is under hard development.
     - [ ] 2.2 minimize
     - [ ] 2.3 bundling to `dist` folder
 - [ ] 3. Write lib
+    - [x] 3.1 read from json function
+    - [ ] 3.2 Tree, Node e.t.c
+    - [ ] 3.3 Tree from json data
+    - [ ] 3.4 types generator
+    - [ ] 3.5 save \<dict\>.d.ts
 - [ ] 4. Unit tests
-    - [ ] 4. setup jest env
+    - [ ] 4.1 setup jest env
 - [ ] 5. e2e tests
