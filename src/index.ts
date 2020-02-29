@@ -1,19 +1,12 @@
-const parse = require('json-to-ast');
+import DictionaryParser from './DictionaryParser';
 
-const test = {
-    "pages": {
-        "settings": {
-            "title": "Settings Page"
-        },
-        "home": {
-            "title": "Home Page"
-        }
-    },
-    "messages": {
-        "hello": "Hello Message"
-    },
-    "locale": "en"
-};
+const enDict = {
+    "page": {
+        "home": "Home"
+    }
+}
 
-const res = parse(JSON.stringify(test));
-console.log(res.children[0].key);
+interface EN{'page.home','page.messages','an.messages.about.title','page.home.s','page.home.d'};
+
+
+const parser = new DictionaryParser('./en.json');
