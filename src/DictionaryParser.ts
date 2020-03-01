@@ -1,5 +1,5 @@
 import { readFromJson } from './utils/readFromJson';
-import { Tree } from './myTree/Tree';
+import { Tree } from './tree/Tree';
 
 
 /**
@@ -19,6 +19,9 @@ export default class DictionaryParser {
      * Creates Tree from json data.
      */
     private srcToTree(){
+        this.tree = new Tree();
+        this.tree.build(this.src);
+        console.log(JSON.stringify(this.tree, null, 2));
         
     }
 
