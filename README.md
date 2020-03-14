@@ -1,6 +1,8 @@
 Small library for creating types map from .json dict files.
 ===========================================================
 
+<img width="300" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper.png">
+
 [Changelog](CHANGELOG.md)
 
 Currently is under hard development.
