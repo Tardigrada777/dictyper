@@ -17,7 +17,7 @@ export class Tree {
         let nodes: string[] = Object.keys(data);
         nodes.map(node => {
             const newNode = new StringNode(node);
-            if (isObject(data[node])) {
+            if (isObject(data[node])) {``
                 parent.add(newNode)
                 this.build(data[node], newNode);
             } else {
@@ -26,13 +26,13 @@ export class Tree {
         });
     }
 
-    public traverseDF(fn: (node: StringNode) => any) {
-        // depth first
-        const store = [this.root];
-        while (store.length) {
-            const node = store.shift();
-            store.unshift(...node.children);
-            fn(node);
-        }
-    }
+    // public traverseDF(fn: (node: StringNode) => any) {
+    //     // depth first
+    //     const store = [this.root];
+    //     while (store.length) {
+    //         const node = store.shift();
+    //         store.unshift(...node.children);
+    //         fn(node);
+    //     }
+    // }
 }
