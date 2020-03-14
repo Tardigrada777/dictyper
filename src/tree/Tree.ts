@@ -4,7 +4,7 @@ import { isObject } from 'util';
 
 
 export class Tree {
-    private root: StringNode;
+    public root: StringNode;
 
     constructor() {
         this.root = new StringNode(ROOT_NODE_VALUE);
