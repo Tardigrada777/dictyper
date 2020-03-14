@@ -13,10 +13,9 @@ Currently is under hard development.
     - [x] 1.1. Init base folder and files structure
     - [x] 1.2. Init git repo
     - [x] 1.3. Create changelog
-- [ ] 2. Setup webpack workflow
-    - [ ] 2.1 ts-loader
-    - [ ] 2.2 minimize
-    - [ ] 2.3 bundling to `dist` folder
+- [x] 2. Setup compile process via tsc
+    - [x] 2.4 compilation
+    - [x] 2.3 bundling to `dist` folder
 - [ ] 3. Write lib
     - [x] 3.1 read from json function
     - [ ] 3.2 Tree, Node e.t.c
