@@ -4,7 +4,8 @@
   "description": "Small library for creating types definitions from .json dictionaries.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w",
+    "build": "tsc"
   },
   "keywords": [
     "ts",
@@ -12,8 +13,9 @@
   ],
   "author": "tardigrada777 <ntwrite@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "@types/node": "^13.7.6",
-    "json-to-ast": "^2.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
   }
 }
