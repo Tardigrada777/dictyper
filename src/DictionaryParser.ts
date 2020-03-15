@@ -33,7 +33,7 @@ export default class DictionaryParser {
     private saveTypesFromTree(){
         const generator = new TypesGenerator(this.tree);
         const types = generator.generate();
-        console.log(types);
+        // console.log(types);
     }
 
     /**

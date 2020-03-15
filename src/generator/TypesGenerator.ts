@@ -1,34 +1,37 @@
 import { Tree } from '../tree/Tree';
+import { StringNode } from '../tree/Node';
 
 
 export class TypesGenerator {
     private types: string;
 
-    public constructor(public data: Tree){
-        this.initWithInterface();
-    }
-
-    private initWithInterface(){
-        this.types = `interface DICT{`;
-    }
+    public constructor(public data: Tree){}
 
     public generate(): string {
-        const node = this.data.root;
+
         const keys: string[] = [];
-        while (node.children.length > 0) {
-            
+
+        while (!this.data.isEveryNodeVisited) {
+
+            keys.push(
+                this.rootToLeafPath(this.data.root);
+            )
+
         }
 
-        this.data.traverseDF(node => {
-            // TODO: impl correct traversing
-            let key: string = node.data;
-            console.log('KEY', key);
+        console.log('KEYS', keys)
 
-            this.types += key;
-        });
+    }
 
-        this.types += '};';
-        return this.types;
+    private rootToLeafPath(node: StringNode, path: string = '') {
+
+        if (node.noChildren) {
+            return path;
+        }
+
+        let key: string = `${path}.${node.data}`;
+        this.rootToLeafPath(node.firstUnvisitedChild, key);
+
     }
 
 }

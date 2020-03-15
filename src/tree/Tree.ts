@@ -10,6 +10,16 @@ export class Tree {
         this.root = new StringNode(ROOT_NODE_VALUE);
     }
 
+    public get isEveryNodeVisited() {
+        let isVisited: boolean = false;
+        this.traverseDF((node: StringNode) => {
+            if (!node.isVisited) {
+                isVisited = false;
+            }
+        });
+        return isVisited;
+    }
+
     public build(
         data: object,
         parent: StringNode = this.root
