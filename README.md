@@ -25,3 +25,5 @@ Currently is under hard development.
 - [ ] 4. Unit tests
     - [ ] 4.1 setup jest env
 - [ ] 5. e2e tests
+
+Thanks for help with tree traversal algorithm [Ann Romme](https://github.com/rommeA)
