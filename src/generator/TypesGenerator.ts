@@ -7,15 +7,15 @@ export class TypesGenerator {
 
     public constructor(public data: Tree){}
 
-    public generate(): string {
+    public generate() {
 
         const keys: string[] = [];
 
         while (!this.data.isEveryNodeVisited) {
 
             keys.push(
-                this.rootToLeafPath(this.data.root);
-            )
+                this.rootToLeafPath(this.data.root) as string
+            );
 
         }
 

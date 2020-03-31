@@ -36,13 +36,13 @@ export class Tree {
         });
     }
 
-    // public traverseDF(fn: (node: StringNode) => any) {
-    //     // depth first
-    //     const store = [this.root];
-    //     while (store.length) {
-    //         const node = store.shift();
-    //         store.unshift(...node.children);
-    //         fn(node);
-    //     }
-    // }
+    public traverseDF(fn: (node: StringNode) => any) {
+        // depth first
+        const store = [this.root];
+        while (store.length) {
+            const node = store.shift() as StringNode;
+            store.unshift(...node.children);
+            fn(node);
+        }
+    }
 }
