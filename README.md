@@ -16,12 +16,15 @@ Currently is under hard development.
 - [x] 2. Setup compile process via tsc
     - [x] 2.4 compilation
     - [x] 2.3 bundling to `dist` folder
-- [ ] 3. Write lib
+- [x] 3. Write lib
     - [x] 3.1 read from json function
-    - [ ] 3.2 Tree, Node e.t.c
-    - [ ] 3.3 Tree from json data
-    - [ ] 3.4 types generator
-    - [ ] 3.5 save \<dict\>.d.ts
-- [ ] 4. Unit tests
+    - [x] 3.2 Tree, Node e.t.c
+    - [x] 3.3 Tree from json data
+    - [x] 3.4 types generator
+    - [x] 3.5 save \<dict\>.d.ts
+- [ ] 4. Setup webpack configuration (node package for generating dict.d.ts file and dt() typed function)
+- [ ] 5. npm-package bundling
+- [ ] 6. Unit tests
     - [ ] 4.1 setup jest env
-- [ ] 5. e2e tests
+- [ ] 7. e2e tests (?)
+- [ ] 8. documentation
