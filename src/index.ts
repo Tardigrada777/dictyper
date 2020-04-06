@@ -1,3 +1,5 @@
 import DictionaryParser from './DictionaryParser';
-
-const parser = new DictionaryParser('./en.json');
+import { dt } from './utils/DictyperFunction';
+export { DictionaryParser, dt };
+export default DictionaryParser;
+module.exports = { dt, DictionaryParser };

@@ -4,7 +4,7 @@ import { isObject } from 'util';
 
 
 export class Tree {
-    private root: StringNode;
+    public root: StringNode;
 
     constructor() {
         this.root = new StringNode(ROOT_NODE_VALUE);
@@ -25,14 +25,4 @@ export class Tree {
             }
         });
     }
-
-    // public traverseDF(fn: (node: StringNode) => any) {
-    //     // depth first
-    //     const store = [this.root];
-    //     while (store.length) {
-    //         const node = store.shift();
-    //         store.unshift(...node.children);
-    //         fn(node);
-    //     }
-    // }
 }

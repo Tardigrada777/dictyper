@@ -1,0 +1,552 @@
+{
+  "notification": {
+    "fatal-error": "Something went wrong. Please reload the page.",
+    "reload-required": "It looks like the site has been updated. Click here to get all the improvements (page will be reloaded)."
+  },
+  "lang": {
+    "short": "EN",
+    "long": "EN, English"
+  },
+  "common": {
+    "share": "Share",
+    "support": "Support"
+  },
+  "validation": {
+    "messages": {
+      "required": "Required field",
+      "required_if": "@:validation.messages.required",
+      "email": "Incorrect E-mail",
+      "email-used": "This E-mail already used",
+      "name": "Only letters numbers and whitespace",
+      "confirmed": "Passwords do not match",
+      "ext": "Incorrect file extension",
+      "mimes": "Incorrect file type",
+      "min": "Must be at least {length} characters",
+      "max": "Must not exceed {length} characters",
+      "alpha": "Only letters",
+      "alphanumspaces": "Only letters, numbers and spaces",
+      "login": "Only english letters, numbers, \".\", \"_\" and \"-\" characters, must begin with a number or letter. Cannot consist only of numbers",
+      "unique_login": "Login already used",
+      "cant-load-file": "Cant load file",
+      "unexpected-type": "Unexpected type",
+      "password": "The password must contain at least one capital letter and one number"
+    },
+    "authorization": {
+      "empty-account": "Please indicate Login, E-mail or Gapopa&nbsp;ID",
+      "account-not-found": "Indicated account is not found",
+      "empty-password": "Please enter password",
+      "incorrect-password": "Incorrect password",
+      "login-occupied": "Provided login is already taken by another user"
+    },
+    "attributes": {}
+  },
+  "pages": {
+    "home": {
+      "title": "Main page"
+    },
+    "im": {
+      "title": "Messages",
+      "full_title": "@:pages.im.title ({count})"
+    },
+    "search": {
+      "title": "Search"
+    },
+    "profile": {
+      "title": "Profile",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "name": "Name",
+      "login": "Login",
+      "birth": "Birth date",
+      "language": "Language",
+      "status": "Status",
+      "education": "Education",
+      "place": "Place",
+      "job": "Job",
+      "marital_status": "Marital status",
+      "gapopa": "Gapopa",
+      "photos": "Photos",
+      "wall": "Wall",
+      "user-info": "Profile info",
+      "contact": "Contact user",
+      "support": "Support",
+      "share": "Share",
+      "share-profile": "Share profile",
+      "unique-text-placeholder": "Your unique text",
+      "change": "Change",
+      "copy": "Copy",
+      "generate": "Generate",
+      "add-text": "You can add your own text, for example",
+      "check-statistic-info": "Conversion statistics will be available in \"@:pages.business.title\" section after pressing a button \"@:pages.profile.copy\"",
+      "translation-sum": "Sum, ",
+      "comment-placeholder": "Comment",
+      "marital_statuses": {
+        "male": {
+          "single": "single",
+          "married": "married",
+          "complicated": "complicated"
+        },
+        "female": {
+          "single": "single",
+          "married": "married",
+          "complicated": "complicated"
+        }
+      },
+      "languages": {
+        "english": "english",
+        "russian": "russian",
+        "spain": "spain",
+        "italian": "italian",
+        "deutsch": "deutsch"
+      },
+      "placeholders": {
+        "login": "Unique login",
+        "slogan": "Status"
+      }
+    },
+    "media": {
+      "title": "Broadcasts"
+    },
+    "photos": {
+      "title": "Photos"
+    },
+    "events": {
+      "title": "Events"
+    },
+    "money": {
+      "title": "Money",
+      "add_funds": "Add funds",
+      "balance": "Balance"
+    },
+    "business": {
+      "title": "Business"
+    },
+    "broadcast": {
+      "title": "Start broadcast"
+    },
+    "settings": {
+      "actions": {
+        "add-change": "Add/Change",
+        "assign": "Assign",
+        "change": "Change",
+        "continue": "Continue",
+        "confirm": "Confirm",
+        "copy": "Copy",
+        "delete": "Delete",
+        "link": "Link",
+        "upload": "Upload"
+      },
+      "title": "Settings",
+      "navigation-bar": {
+        "account": "@:pages.settings.tabs.account",
+        "privacy": "@:pages.settings.tabs.privacy",
+        "security": "@:pages.settings.tabs.security"
+      },
+      "tabs": {
+        "account": "Account",
+        "privacy": "Privacy",
+        "security": "Security"
+      },
+      "categories": {
+        "avatar": {
+          "info": "Аватар является графическим не уникальным идентификатором Вашего аккаунта. Помогает другим пользователям запомнить Вас на уровне визуализации.",
+          "title": "Avatar",
+          "title-short": "Avatar"
+        },
+        "default-id": {
+          "info": "Пожалуйста, укажите, какой идентификатор использовать для отображения другим пользователям. Например, в публичном профиле, мини профиле, подписи к сообщениям, в списках контактов и т.п. Вы можете использовать только установленный идентификатор, например, Уникальный логин, Имя, e-mail или Num.",
+          "none": "None",
+          "title": "By default show",
+          "title-short": "By default"
+        },
+        "email": {
+          "info": "Ваш E-mail является дополнительным уникальным идентификатором Вашего аккаунта. Может использоваться для входа в систему. Может использоваться при отображении Вашего аккаунта другим пользователям. Может использоваться для восстановления доступа к аккаунту.",
+          "link": "Link",
+          "email-confirm-notification": "An email confirmation link has been sent to your email. The link will be valid 24 hours.",
+          "resend": "Resend confirmation email",
+          "resend-errors": {
+            "no-unconfirmed-email": "It looks like you do not have an unconfirmed email yet. Please confirm Your actual email before."
+          },
+          "title": "E-mail",
+          "title-short": "E-mail",
+          "unlink": "Unlink",
+          "unconfirmed-label": "Unconfirmed"
+          
+        },
+        "num": {
+          "info": "Ваш Num является основным уникальным идентификатором Вашего аккаунта. Может использоваться для входа в систему. Может использоваться при отображении Вашего аккаунта другим пользователям. Не может быть изменен.",
+          "title": "Num",
+          "title-short": "Num"
+        },
+        "login": {
+          "info": "Ваш уникальный логин является дополнительным уникальным идентификатором Вашего аккаунта. Может использоваться для входа в систему. Может использоваться при отображении Вашего аккаунта другим пользователям. Не может быть изменен.",
+          "title": "Unique login",
+          "title-short": "Unique login",
+          "confirm-success": "Your unique login has been successfully changed.",
+          "validation-info": "Уникальный логин может содержать только буквы латинского алфавита, цифры и символы \"-\", \".\" и \"_\". Должен начинаться с буквы или цифры и быть не менее 3х символов."
+        },
+        "name": {
+          "info": "Имя или название является дополнительным не уникальным идентификатором Вашего аккаунта. Может использоваться при отображении Вашего аккаунта другим пользователям. Может быть изменено.",
+          "title": "Personal or entity name",
+          "title-short": "Name",
+          "confirm-success": "Your name has been successfully changed.",
+          "delete-errors": {
+            "is-display-name": "Sorry! You cannot delete the name that is selected as the display name."
+          },
+          "validation-info": "Имя или название должно начинаться с буквы или цифры. Может содержать только буквы, цифры и символ пробела."
+        },
+        "password": {
+          "info": "Пароль должен быть не менее шести символов и содержать минимум одну заглавную букву и одну цифру.",
+          "new-password": "New password",
+          "old-password": "Old password",
+          "repeat-password": "Repeat password",
+          "repeat-new-password": "Repeat new password",
+          "title": "Password",
+          "title-short": "Password",
+          "validation-info": "@:pages.settings.categories.password.info"
+        }
+      }
+    },
+    "confirm-email": {
+      "title": "Confirm Email",
+      "redirect-button": "Return to Settings Page",
+      "confirmation-success": "Congratulations, your email has been successfully verified!",
+      "confirmation-errors": {
+        "occupied": "Sorry, provided email is already taken by another user",
+        "wrong-token": "Error! Provided token is invalid."
+      }
+    },
+    "confirm-page": {
+      "title": "Confirmation Page",
+      "confirmation-success": "Congratulations, your password has been successfully reset!",
+      "confirmation-error": "Error, looks like the link has expired! Try to request a password reset again.",
+      "header": "Reset Password",
+      "redirect": {
+        "home": "Home Page",
+        "settings": "Settings Page"
+      },
+      "reset-button": "Reset"
+    },
+    "not-found": {
+      "title": "Page does not exist",
+      "message": "The page You requested does not exist"
+    }
+  },
+  "mobilePages": {
+    "home": {
+      "title": "Home Page"
+    },
+    "im": {
+      "title": "Conversations"
+    },
+    "applicationSettings": {
+      "title": "Application Settings"
+    }
+  },
+  "components": {
+    "incoming-call": {
+      "audio": "Audio call",
+      "video": "Video call"
+    },
+    "avatar-editor": {
+      "add-avatar": "Add avatar",
+      "drop-hint": "Drag and drop image here or",
+      "add-photo": "Add photo...",
+      "browse": "browse...",
+      "change-image": "Change image",
+      "change": "Change",
+      "cancel": "Cancel",
+      "accept": "Accept"
+    },
+    "authorization": {
+      "continue": "Continue",
+      "new-gapopa": "New Gapopa ID",
+      "registration-not-mandatory": "Registration is not mandatory",
+      "start": "Start",
+      "log-in": "Log in",
+      "restore-password": "Restore password"
+    },
+    "sign-in": {
+      "saved-gapopa": "Saved accounts",
+      "last-visit": "Last visit: {date}",
+      "delete": "Delete",
+      "clear": "Clear",
+      "log-in": "Log in",
+      "next": "Next",
+      "forgot-password": "Forgot password?",
+      "remove-saved-notification": "All saved accounts will be deleted from this browser",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "remember-me": "Remember me",
+      "login-placeholder": "Login, E-mail or Gapopa ID",
+      "password-placeholder": "Password",
+      "email-placeholder": "E-mail",
+      "account-removed": "В связи с истечением текущей сессии(72 часа) аккаунт был удален. В связи с тем, что к данному аккаунту не был задан пароль, его восстановление невозможно.",
+      "password-restore-tooltip": "E-mail, confirmed for Your account",
+      "password-restore-notification": "A password reset link has been sent to your email. The link will be valid 24 hours.",
+      "back": "Back",
+      "continue": "Continue",
+      "restore-fail-reasons": {
+        "default": "Account access restore failed. Please contact to support.",
+        "not-exist": "User with the provided email is not exists and the link was not sent."
+      },
+      "feedback-types": {
+        "email": "email",
+        "phone": "phone"
+      }
+    },
+    "account-access": {
+      "name": "Personal or entity name",
+      "confirm": "Confirm",
+      "copy": "Copy",
+      "continue": "Continue",
+      "optional-fields": "Optional Fields",
+      "password": "Password",
+      "repeat-password": "Repeat password",
+      "e-mail": "E-mail",
+      "unique-login": "Unique login",
+      "useful-information": "Useful information",
+      "password-tip": "You CAN use the service WITHOUT the password being entered. In this case you have access to your account only while the cookie file is stored in your device. In case you change the device or browser, or lose (delete) the cookie file, it will be impossible to restore access to your account.",
+      "e-mail-tip": "You CAN use the service WITHOUT the e-mail being entered. However, in case you lose (forget) your password, it will be impossible to restore access to your account. Besides, you can use your e-mail to sign in to your account.",
+      "login-tip": "Unique login can be used to sign in to your account and/or for your recognition by your correspondents.",
+      "name-tip": "Name can be used for your recognition by your correspondents.",
+      "unknown-error": "Unknown error. Please contact to support",
+      "set-login-fail-reasons": {
+        "already-exist": "@:validation.messages.unique_login",
+        "default": "@:components.account-access.unknown-error"
+      },
+      "set-password-fail-reasons": {
+        "password-allready-set": "Password allready set",
+        "default": "@:components.account-access.unknown-error"
+      },
+      "replace-password-fail-reasons": {
+        "wrong-old-password": "Wrong old password",
+        "default": "@:components.account-access.unknown-error"
+      },
+      "set-email-fail-reasons": {
+        "already-used": "@:validation.messages.email-used",
+        "invalid": "@:validation.messages.email"
+      },
+      "set-name-fail-reasons": {
+        "invalid": "@:validation.messages.name",
+        "exceeds-max-length": "Name exceeds the maximum allowed length"
+      },
+      "set-avatar-fail-reasons": {
+        "cant-load-file": "@:validation.messages.cant-load-file",
+        "unexpected-type": "@:validation.messages.unexpected-type",
+        "default": "@:components.account-access.unknown-error"
+      }
+    },
+    "call": {
+      "advertising": "Here can be your advertising",
+      "report-quality": "Report quality of communication",
+      "send": "Send",
+      "report-result": "Thank you for your information",
+      "report-info": "Our experts will analyze the telemetry data and try to solve the problem as soon as possible"
+    },
+    "timeline": {
+      "start": "Start",
+      "now": "Now"
+    },
+    "lang-sidebar": {
+      "select-lang": "Select the site display language",
+      "mobile-select-lang": "Select the application display language"
+    },
+    "share-window": {
+      "generate": "Generate",
+      "cancel": "Cancel",
+      "change": "Change",
+      "copy": "Copy",
+      "business": "\"@:pages.business.title\"",
+      "conversion-statistic": "Conversion statistics will be available in the ",
+      "conversion-statistic-underway": "You have already shared this link. Сonversion statistics are calculated in the ",
+      "add-text": "You can add your own text, for example:",
+      "text-placeholder": "Your unique text ...",
+      "notice-end": "after pressing the \"Copy \" button.",
+      "copy-title": "Copy to clipboard and save in 'Business' section",
+      "link-copied": "Link copied to the clipboard.",
+      "unknown-error": "Unknown error.",
+      "error-empty-link": "Error: missing link text.",
+      "error-unacceptable-symbols": "Error: link text contains invalid characters. Only english letters, numbers, \"_\" and \".\" characters can be used.",
+      "error-already-use": "Error: link text is already in use. Please change the link text.",
+      "error-max-length": "Error: link text exceeds the maximum number of characters allowed (256)"
+    },
+    "top-menu": {
+      "menu": "Menu",
+      "add_funds": "@:pages.money.add_funds",
+      "broadcast": "@:pages.broadcast.title",
+      "media": "@:pages.media.title",
+      "events": "@:pages.events.title: {count}",
+      "im": "@:pages.im.title: {count}",
+      "balance": "@:pages.money.balance",
+      "show": "Show",
+      "search": "@:pages.search.title",
+      "login": "Log in"
+    },
+    "bottom-menu": {
+      "terms-of-use": "Terms of use",
+      "feedback": "Feedback",
+      "privacy-policy": "Privacy policy",
+      "faq": "FAQ",
+      "input-broadcast": "Input broadcast",
+      "input-call": "Input call",
+      "help": "Help"
+    },
+    "menu-sidebar": {
+      "profile": "@:pages.profile.title",
+      "media": "@:pages.media.title",
+      "photos": "@:pages.photos.title",
+      "im": "@:pages.im.title",
+      "events": "@:pages.events.title",
+      "money": "@:pages.money.title",
+      "business": "@:pages.business.title",
+      "broadcast": "@:pages.broadcast.title",
+      "search": "@:pages.search.title",
+      "settings": "@:pages.settings.title",
+      "info": "Info",
+      "logout": "Exit",
+      "login": "@:components.top-menu.login",
+      "applicationSettings": "Application Settings",
+      "help": "Help"
+    },
+    "editable-content": {
+      "to_write": "To write..."
+    },
+    "im": {
+      "go-to-profile": "Go to profile {name}",
+      "open-dialog": "Open dialog with {name}",
+      "dialog-cleared": "Dialog cleared",
+      "dialog-empty": "No messages",
+      "dialog-empty-description": "Your messages and calls are protected by encryption and are available only to you and your correspondent.",
+      "sent-on-message": "Forwarded message",
+      "status-message": "Status",
+      "removed": "Removed. ",
+      "restore": "Restore",
+      "send-on-message": "Forward",
+      "enable": "Enable",
+      "disable": "Disable",
+      "sended": "Sended",
+      "translation-sum": "Sum, ",
+      "comment-translate-price": "Comment translation price {br} is: {amount}",
+      "donation-notice": "Notification about Your support will be sended in private message.",
+      "comment-placeholder": "Comment...",
+      "join": "Join",
+      "remember": "Remember",
+      "remember_title": "Add to favorite contacts",
+      "forget-contact": "Remove from favourites",
+      "forget": "Forget",
+      "forget_title": "Remove from favorite contacts",
+      "block": "Block",
+      "unblock": "Unblock",
+      "remove": "Remove",
+      "translate": "Translate",
+      "write": "Write",
+      "hide": "Hide",
+      "rename": "Rename",
+      "add-contact": "Add to favourites",
+      "save": "Save",
+      "saved": "Saved",
+      "send-attachment": "Forward",
+      "search": "Search",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "message-control": "Message management",
+      "fortuna": "Fortuna",
+      "close": "Close",
+      "back": "Back",
+      "failed": "Not sent",
+      "resend-failed": "Retry",
+      "clear-conversation": "Clear dialog",
+      "random-contact": "Random Contact",
+      "authorized-user-required": "To communicate with other users, you must log in",
+      "contacts": {
+        "remove": "Remove dialog",
+        "all": "Favourites",
+        "recent": "Recent",
+        "messenger-info-gapopa": "You can use the messenger without registration.",
+        "add-contacts-info": "To add a contact you can:{br}- use search tools;{br}- use the link Add A Contact;{br}- drag and drop the user's avatar into the list of contacts area.",
+        "add-contact": "Add contact",
+        "donation-fail": {
+          "no-funds": "No funds.",
+          "empty-donation": "Donation can not be empty.",
+          "less-than-allowed": "Donation less than allowed.",
+          "unknown-error": "Unknown error."
+        }
+      },
+      "slogan": {
+        "header": "The text is available to each of Your correspondent. In his / her language if a translation is ordered.",
+        "translate-price": "The cost of translating the status text is: {price}",
+        "translate-confirm": "Confirm",
+        "translate-confirmed": "Status text changed",
+        "placeholder": "Status text ..."
+      },
+      "statuses": {
+        "online": "Online",
+        "offline": "Offline",
+        "busy": "busy",
+        "away": "Away"
+      },
+      "messages": {
+        "attachment-size": "Size: {size}",
+        "was-online": "Last time online: ",
+        "contact-renamed": "Contact renamed",
+        "contact-favourite-added": "Contact added to favourites",
+        "contact-favourite-removed": "Contact removed from favourites",
+        "block-contact": "You are depriving the user of the opportunity to contact you and leave comments",
+        "contact-blocked": "User blocked",
+        "remove-contact": "The user will be removed from the list of recent conversations and favourites",
+        "contact-removed": "The user removed from the list of recent conversations and favourites",
+        "attachments-sent-to": "Sent to contacts",
+        "translate-price": "Translate price",
+        "message-translating": "Message sent to translation",
+        "message-control": "Message management",
+        "remove": "Remove",
+        "removed": "Message removed",
+        "restore": "Restore",
+        "conversation-is-cleared": "Dialog cleared",
+        "translate": "Translate",
+        "clear-conversation": "Clear dialog",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "saved": "Saved",
+        "send": "Send",
+        "sended": "Sended",
+        "search": "Search",
+        "roll-up": "Roll up",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "just-now": "Just now",
+        "comment-placeholder": "Сomment...",
+        "comment-translation-amount": "Comment translation fee",
+        "last-online": "{day} at {time}"
+      },
+      "attachments": {
+        "title": "Attach files",
+        "max-count-warning": "A maximum of {count} files can be attached to a single message.",
+        "errors": {
+          "PayloadTooLargeError": "Maximum allowed file size exceeded",
+          "NetworkError": "Network error: Failed to fetch"
+        }
+      },
+      "you_are_offline": "You are offline",
+      "blocked_by_me": "You have blocked this contact",
+      "me_blocked": "User has forbidden You to send him messages",
+      "message_fail": "Error while sending, message not sent. {br} Click to repeat"
+    }
+  },
+  "helpers": {
+    "size-unit": {
+      "0": "bytes",
+      "1": "KB",
+      "2": "MB",
+      "3": "GB",
+      "4": "TB",
+      "5": "PB",
+      "6": "EB",
+      "7": "ZB",
+      "8": "YB"
+    }
+  }
+}
