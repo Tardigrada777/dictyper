@@ -11,4 +11,14 @@ export const ROOT_NODE_VALUE: string = 'root';
 /**
  * Name of interface in the final types.
  */
-export const INTERFACE_NAME: string = 'typedDictFunc';
+export const INTERFACE_NAME: string = 'dtFunc';
+
+/**
+ * Name of final typed function.
+ */
+export const FUNCTION_NAME: string = 'dt';
+
+/**
+ * Name of final .d.ts file
+ */
+export const FILE_NAME: string = 'i18n.dict';

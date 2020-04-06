@@ -5,7 +5,7 @@ import { DIR_NAME } from '../globals';
 
 
 export const readFromJson = (path: string) => {
-    const fullPath: string = join(DIR_NAME, path);
-    const fileSource = readFileSync(fullPath, { encoding: 'utf8' });
+    // const fullPath: string = join(DIR_NAME, path);
+    const fileSource = readFileSync(path, { encoding: 'utf8' });
     return fileSource;
 };

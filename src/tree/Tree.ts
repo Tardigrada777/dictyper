@@ -10,16 +10,6 @@ export class Tree {
         this.root = new StringNode(ROOT_NODE_VALUE);
     }
 
-    public get isEveryNodeVisited() {
-        let isVisited: boolean = false;
-        this.traverseDF((node: StringNode) => {
-            if (!node.isVisited) {
-                isVisited = false;
-            }
-        });
-        return isVisited;
-    }
-
     public build(
         data: object,
         parent: StringNode = this.root
@@ -34,15 +24,5 @@ export class Tree {
                 parent.add(newNode);
             }
         });
-    }
-
-    public traverseDF(fn: (node: StringNode) => any) {
-        // depth first
-        const store = [this.root];
-        while (store.length) {
-            const node = store.shift() as StringNode;
-            store.unshift(...node.children);
-            fn(node);
-        }
     }
 }
