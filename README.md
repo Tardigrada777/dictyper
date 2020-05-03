@@ -23,9 +23,9 @@ Currently is under hard development.
     - [x] 3.4 types generator
     - [x] 3.5 save \<dict\>.d.ts
 - [x] 4. Setup webpack configuration (node package for generating dict.d.ts file and dt() typed function)
-- [ ] 5. npm-package bundling
+- [x] 5. npm-package bundling
 - [ ] 6. Unit tests
-    - [ ] 4.1 setup jest env
+    - [ ] 6.1 setup jest env
 - [ ] 7. e2e tests (?)
 - [ ] 8. documentation
 

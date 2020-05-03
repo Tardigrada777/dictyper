@@ -10,4 +10,7 @@ cp src/dt.ts dist
 echo '4. Copy production README'
 cp README.md dist
 
+echo '5. Copy package.json file'
+cp package.json dist
+
 echo 'Build process completed successfully!'
