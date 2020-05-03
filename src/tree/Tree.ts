@@ -1,6 +1,6 @@
 import { StringNode } from './Node';
 import { ROOT_NODE_VALUE } from '../globals';
-import { isObject } from 'util';
+import { isObject } from '../utils/common';
 
 
 export class Tree {
@@ -17,7 +17,7 @@ export class Tree {
         let nodes: string[] = Object.keys(data);
         nodes.map(node => {
             const newNode = new StringNode(node);
-            if (isObject(data[node])) {``
+            if (isObject(data[node])) {
                 parent.add(newNode)
                 this.build(data[node], newNode);
             } else {

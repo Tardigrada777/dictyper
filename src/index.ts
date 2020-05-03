@@ -1,5 +1,5 @@
 import DictionaryParser from './DictionaryParser';
-import { dt } from './utils/DictyperFunction';
-export { DictionaryParser, dt };
+// import { dt } from './utils/DictyperFunction';
+export { DictionaryParser };
 export default DictionaryParser;
-module.exports = { dt, DictionaryParser };
+module.exports = { DictionaryParser };

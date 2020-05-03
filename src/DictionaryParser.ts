@@ -4,7 +4,7 @@ import { writeFileSync } from 'fs';
 import { readFromJson } from './utils/readFromJson';
 import { Tree } from './tree/Tree';
 import { StringNode } from './tree/Node';
-import { INTERFACE_NAME, FUNCTION_NAME, FILE_NAME, DIR_NAME } from './globals';
+import { INTERFACE_NAME, FILE_NAME } from './globals';
 
 
 /**
@@ -77,13 +77,12 @@ export default class DictionaryParser {
      */
     private saveTypesFromTree(destPath: string){
         const template = (key) => {
-            return `(key:${JSON.stringify(key)}):void;`
+            return `(key:${JSON.stringify(key)}):string;`
         }
         const base = (keys: string[]) => {
-            return `interface ${INTERFACE_NAME} {${keys.join('')}};`
+            return `interface ${INTERFACE_NAME} {${keys.join('')}}`
         }
         let type: string = base(this.paths.map(path => template(path)));
-        type += `declare ${FUNCTION_NAME}:${INTERFACE_NAME};`;
         writeFileSync(join(destPath, `${FILE_NAME}.d.ts`), type);
     }
 

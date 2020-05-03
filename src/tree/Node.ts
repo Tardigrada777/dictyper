@@ -1,6 +1,4 @@
 export class StringNode {
-    public isVisited: boolean = false;
-
     constructor(
         public data: string,
         public children: Array<StringNode> = []
