@@ -11,7 +11,7 @@ export const ROOT_NODE_VALUE: string = 'root';
 /**
  * Name of interface in the final types.
  */
-export const INTERFACE_NAME: string = 'dtFunc';
+export const INTERFACE_NAME: string = 'dtFuncArguments';
 
 /**
  * Name of final typed function.

@@ -77,7 +77,8 @@ export default class DictionaryParser {
      */
     private saveTypesFromTree(destPath: string){
         const template = (key) => {
-            return `(key:${JSON.stringify(key)}):string;`
+            return `${JSON.stringify(key)};`
+            // return `(key:${JSON.stringify(key)}):string;`
         }
         const base = (keys: string[]) => {
             return `interface ${INTERFACE_NAME} {${keys.join('')}}`
