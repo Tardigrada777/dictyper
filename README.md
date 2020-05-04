@@ -10,7 +10,7 @@ Currently is under hard development.
 ### Install
 
 ```bash
-npm install dictyper # or yarn add dictyper 
+npm install --save-dev dictyper # or yarn add --dev dictyper 
 ```
 
 ### Usage
