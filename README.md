@@ -59,6 +59,9 @@ an error if the dialed key does not exist. Or you can type any other function us
 #### vscode
 <img width="548" height="392" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper-vscode.gif">
 
+#### Webstorm
+<img width="548" height="392" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper-ws.gif">
+
 ### TODO
 
 - [x] 1. Project init

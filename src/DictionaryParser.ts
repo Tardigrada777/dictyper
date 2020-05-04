@@ -84,6 +84,7 @@ export default class DictionaryParser {
             return `interface ${INTERFACE_NAME} {${keys.join('')}}`
         }
         let type: string = base(this.paths.map(path => template(path)));
+        type += 'declare function dt(key: keyof dtFuncArguments): dtFuncArguments;';
         writeFileSync(join(destPath, `${FILE_NAME}.d.ts`), type);
     }
 
