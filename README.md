@@ -5,7 +5,8 @@ Small library for creating types map from .json dict files.
 
 [Changelog](CHANGELOG.md)
 
-Currently is under hard development.
+### Status: Alpha
+Currently is under hard development. PRs are appreciated!
 
 ### Install
 
@@ -32,8 +33,33 @@ Run `dt.js` with node
 node dt.js
 ```
 
+It creates `i18n.dict.d.ts` file. Now, you can use our `dt` function, for example:
 
-### Checklist
+```vue
+<template>
+  <h1> {{ translatedValue }} </h1>
+</template>
+
+<script lang="ts">
+import { dt } from 'dictyper/dt';
+
+export default {
+  computed: {
+    translatedValue() {
+      return dt('path.to.existing.key');
+    }      
+  }
+}
+</script>
+```
+
+Once the file `i18n.dict.d.ts` is created, your IDE will prompt the current keys from the dictionary and indicate 
+an error if the dialed key does not exist. Or you can type any other function using the generated `dtFuncArgiments` interface.
+
+#### vscode
+<img width="600" height="600" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper-vscode.gif">
+
+### TODO
 
 - [x] 1. Project init
     - [x] 1.1. Init base folder and files structure
