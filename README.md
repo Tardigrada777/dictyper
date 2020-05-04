@@ -7,6 +7,32 @@ Small library for creating types map from .json dict files.
 
 Currently is under hard development.
 
+### Install
+
+```bash
+npm install dictyper # or yarn add dictyper 
+```
+
+### Usage
+
+Create a `dt.js` file with the following contents:
+```js
+const { DictionaryParser } = require('dictyper');
+const { join } = require('path');
+
+// path to dict file (dict-example.json)
+const d = new DictionaryParser(join(__dirname, 'dict-example.json'));
+
+// path to save the resulting file with types (i18n.dict.d.ts)
+d.generate(join(__dirname, './'));
+```
+
+Run `dt.js` with node
+```bash
+node dt.js
+```
+
+
 ### Checklist
 
 - [x] 1. Project init
