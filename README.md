@@ -46,7 +46,7 @@ import { dt } from 'dictyper/dt';
 export default {
   computed: {
     translatedValue() {
-      return dt('path.to.existing.key');
+      return this.$t(dt('path.to.existing.key'));
     }      
   }
 }
