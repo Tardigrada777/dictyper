@@ -57,7 +57,7 @@ Once the file `i18n.dict.d.ts` is created, your IDE will prompt the current keys
 an error if the dialed key does not exist. Or you can type any other function using the generated `dtFuncArgiments` interface.
 
 #### vscode
-<img width="600" height="600" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper-vscode.gif">
+<img width="548" height="392" src="https://raw.githubusercontent.com/Tardigrada777/dictyper/master/docs/assets/dictyper-vscode.gif">
 
 ### TODO
 
