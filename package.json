@@ -1,6 +1,6 @@
 {
   "name": "dictyper",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Small library for creating types definitions from .json dictionaries.",
   "main": "index.js",
   "scripts": {
