@@ -1,6 +1,6 @@
 {
   "name": "dictyper",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Small library for creating types definitions from .json dictionaries.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "ts",
     "js",
     "i18n",
-    "frontend"
+    "frontend",
+    "vue",
+    "json",
+    "parser"
   ],
   "author": "tardigrada777 <ntwrite@gmail.com>",
   "repository": "https://github.com/Tardigrada777/dictyper",
